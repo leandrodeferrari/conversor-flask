@@ -20,7 +20,7 @@ h1{
 
 body{
     margin: 0;
-    background-image: url('fotos/bgcalisma-1.jpg');
+    background-image: url('/static/images/bgcalisma-1.jpg');
     background-size: cover;
     backdrop-filter: brightness(0.7);
     display: flex;
@@ -77,6 +77,7 @@ form input{
     margin: 5px auto;
     background: #00bcd4(252, 227, 84);
 }
+
 form label{
     display: block;
     margin: 10px auto;
@@ -165,7 +166,6 @@ main{
 #graveError img{
     width: 150px;
 }
-
 
 .vacio::after {
     content: "*";
