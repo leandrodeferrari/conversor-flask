@@ -49,7 +49,7 @@ document.getElementById("uploadForm").addEventListener("submit", async function(
     console.log("Datos del formulario:", Object.fromEntries(formData));
  
     try {
-        const response = await fetch("https://conversorpdf.onrender.com/convert", {
+        const response = await fetch("http://127.0.0.1:3000/conversor", {
           method: "POST",
           body: formData,
           mode: "cors",
